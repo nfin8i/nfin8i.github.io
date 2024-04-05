@@ -1,0 +1,47 @@
+body {
+  margin: 1;
+  padding: 0;
+  font-size: 18px;
+  color: var(--tg-theme-text-color);
+  background: var(--tg-theme-bg-color);
+}
+
+.container {
+  max-width: 400px;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 155px 155px;
+  grid-template-rows: 225px 225px 225px;
+}
+
+.img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.item {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 2px 7px;
+  border: none;
+  background: rgb(173, 23, 15);
+  border-radius: 10px;
+  color: #ffffff;
+  text-transform: lowercase;
+  font-weight: 500;
+
+  transition: background 0.15s linear;
+}
+
+.btn:hover {
+  background: rgb(113, 232, 113);
+}
+
+.usercard {
+  text-align: center;
+}
